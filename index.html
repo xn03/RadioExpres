@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inicio - RadioExpres</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #f5f7fa, #e0e7ff);
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar {
+      background-color: #212529;
+    }
+
+    .navbar-brand {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    .icon-link {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .icon-box {
+      transition: transform 0.3s ease;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      background-color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .icon-box:hover {
+      transform: scale(1.05);
+      background-color: #f0f4ff;
+    }
+
+    .icon-box i {
+      font-size: 3rem;
+      color: #0d6efd;
+      margin-bottom: 0.5rem;
+    }
+
+    .icon-label {
+      font-weight: 500;
+      font-size: 1rem;
+      color: #333;
+    }
+
+    .slogan {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 6rem;
+    }
+
+    footer {
+      background-color: #212529;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 3rem;
+    }
+
+    .form-section {
+      margin-top: 4rem;
+      padding: 2rem;
+      background-color: #ffffffcc;
+      border-radius: 10px;
+    }
+
+    .form-section h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">RadioExpres</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="servicio.html">Servicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="seguimiento.html">Seguimiento</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container text-center" style="margin-top: 100px;">
+    <div class="slogan">
+      <p class="my-4">"Entregando emociones, un paquete a la vez."</p>
+    </div>
+
+    <img src="https://cdn.freebiesupply.com/logos/large/2x/radio-expres-logo-png-transparent.png" alt="Logo de RadioExpres" class="img-fluid my-4" style="max-width: 250px;">
+
+    <div class="row justify-content-center g-4 mt-4">
+      <div class="col-6 col-sm-4 col-md-2">
+        <a href="nosotros.html" class="icon-link">
+          <div class="icon-box">
+            <i class="fas fa-users"></i>
+            <div class="icon-label">Nosotros</div>
+          </div>
+        </a>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <a href="servicio.html" class="icon-link">
+          <div class="icon-box">
+            <i class="fas fa-truck-fast"></i>
+            <div class="icon-label">Servicio</div>
+          </div>
+        </a>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <a href="seguimiento.html" class="icon-link">
+          <div class="icon-box">
+            <i class="fas fa-map-location-dot"></i>
+            <div class="icon-label">Seguimiento</div>
+          </div>
+        </a>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <a href="contacto.html" class="icon-link">
+          <div class="icon-box">
+            <i class="fas fa-envelope-open-text"></i>
+            <div class="icon-label">Contacto</div>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2025 RadioExpres - Todos los derechos reservados</p>
+    <p class="small">"Transportamos más que paquetes, llevamos tus historias."</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

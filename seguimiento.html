@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seguimiento - RadioExpres</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #f5f7fa, #e0e7ff);
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar {
+      background-color: #212529;
+    }
+
+    .navbar-brand {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #fff !important;
+    }
+
+    .form-section {
+      margin-top: 4rem;
+      padding: 2rem;
+      background-color: #ffffffcc;
+      border-radius: 10px;
+    }
+
+    .form-section h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: #0d6efd;
+    }
+
+    .form-section p {
+      font-size: 1rem;
+      color: #333;
+    }
+
+    footer {
+      background-color: #212529;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">RadioExpres</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="servicio.html">Servicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="seguimiento.html">Seguimiento</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container" style="margin-top: 100px;">
+
+    <section class="form-section text-center">
+      <h2><i class="fas fa-location-arrow me-2"></i>Seguimiento de Envíos</h2>
+      <p class="mb-4">Ingresa tu número de seguimiento para consultar el estado de tu paquete.</p>
+      <form class="row justify-content-center">
+        <div class="col-md-6 mb-3">
+          <input type="text" class="form-control" placeholder="Ej. RX123456789BO" required>
+        </div>
+        <div class="col-md-3 mb-3">
+          <button type="submit" class="btn btn-primary w-100">Buscar</button>
+        </div>
+      </form>
+      <div class="mt-3">
+        <p class="text-muted">Ejemplo: El paquete ha sido enviado y se encuentra en tránsito.</p>
+      </div>
+    </section>
+
+    <section class="form-section text-center mt-4">
+      <h2><i class="fas fa-calculator me-2"></i>Simula tu Envío</h2>
+      <p class="mb-4">Obtén una cotización aproximada ingresando los siguientes datos.</p>
+      <form class="row g-3 justify-content-center">
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder="Ciudad de origen" required>
+        </div>
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder="Ciudad de destino" required>
+        </div>
+        <div class="col-md-3">
+          <input type="number" class="form-control" placeholder="Peso (kg)" required>
+        </div>
+        <div class="col-md-3 d-grid">
+          <button type="submit" class="btn btn-outline-secondary">Cotizar</button>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 RadioExpres - Todos los derechos reservados</p>
+    <p class="small">"Transportamos más que paquetes, llevamos tus historias."</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
